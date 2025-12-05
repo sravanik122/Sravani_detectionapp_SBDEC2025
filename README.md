@@ -66,7 +66,8 @@ A comprehensive Streamlit web application for detecting and analyzing heritage s
 
 1. **Clone or navigate to the project directory:**
    ```bash
-   cd /home/surendra208/Documents/jaya/aimoodmate/ai_app
+   git clone https://github.com/sravanik122/Sravani_detectionapp_SBDEC2025.git
+   cd Sravani_detectionapp_SBDEC2025/app
    ```
 
 2. **Install dependencies:**
@@ -75,11 +76,16 @@ A comprehensive Streamlit web application for detecting and analyzing heritage s
    ```
 
 3. **Verify model file:**
-   Ensure the YOLOv11 model weights are present at:
+   The YOLOv11 model weights are stored externally because GitHub limits uploads to 25MB.
+   Download best.pt from Google Drive:
    ```
-   /home/surendra208/Documents/jaya/aimoodmate/ai_app/best.pt
+   https://drive.google.com/file/d/1TxcpCk_fpsu3HNWxH9zOkmU-DM4m_3Q9/view?usp=sharing
    ```
-
+   After downloading, place it inside the app folder:
+   ```
+   Sravani_detectionapp_SBDEC2025/app/best.pt
+   ```
+   
 ## 🎯 Usage
 
 ### Starting the Application
